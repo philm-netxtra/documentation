@@ -1,17 +1,12 @@
-name: Middleman
+name: docs
 
-on:
-  push:
-    branches: [master]
+on: [push]
 
 jobs:
-  build_and_deploy:
-    name: Build & Deploy
+  bump:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - name: Build & Deploy to GitHub Pages
-        with:
-          REMOTE_BRANCH: gh-pages
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        uses: yurikoval/middleman-gh-pages-action@master
+    - uses: actions/checkout@master
+    - uses: tool3/docsify-action@master
+      with:
+        github_token: ${{ secrets.GP_TOKEN }}

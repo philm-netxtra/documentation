@@ -1,2 +1,3 @@
-# documentation
-Test site using SSG and GitHub Pages
+# Ombudsman
+
+> An awesome project.
