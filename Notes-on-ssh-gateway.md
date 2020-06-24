@@ -1,0 +1,1 @@
+I've created an user oso-devops with arturs@resolvergorup.com email. This user was added to bunny_publisher and endpoind-flux repositories as collaborator. The user has ssh key which is same as for devops-key for the ssh gateway. This lets to ssh to any other lib.
