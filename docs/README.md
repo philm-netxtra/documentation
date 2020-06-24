@@ -1,3 +1,0 @@
-# Ombudsman
-
-> An awesome project.
